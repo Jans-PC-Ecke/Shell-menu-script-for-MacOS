@@ -78,7 +78,7 @@ do
   A) btop;;
   B) cmatrix;;
 	C) tty-clock -s -c -C1 -b;;
-	D) ssh dieter@192.168.0.18
+	D) ssh dieter@192.168.0.0;;
 	E) mc;;
 	u) sudo softwareupdate -l -i -a && brew upgrade	;;
 	q) exit;;
