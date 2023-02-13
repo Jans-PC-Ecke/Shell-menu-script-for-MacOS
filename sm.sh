@@ -36,9 +36,10 @@ do
 	echo ""
 	echo "	A = Bashtop 		B = C-Matrix"
 	echo ""
-	echo " 	C = TTY-Clock		D = Midnight-Commander"
+	echo " 	C = TTY-Clock		D = Dieter"
 	echo ""
-	echo "  E = Dieter 						| u = Update"
+	echo " 	E = Midnight-Commander					| u = Update"
+	echo ""
 	echo "================="
 	echo ""
 	echo "	q = exit"
@@ -77,8 +78,8 @@ do
   A) btop;;
   B) cmatrix;;
 	C) tty-clock -s -c -C1 -b;;
-	D) mc;;
-	E) ssh dieter@192.168.0.0
+	D) ssh dieter@192.168.0.18
+	E) mc;;
 	u) sudo softwareupdate -l -i -a && brew upgrade	;;
 	q) exit;;
 
