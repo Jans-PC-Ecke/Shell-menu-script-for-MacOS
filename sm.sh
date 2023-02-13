@@ -38,7 +38,7 @@ do
 	echo ""
 	echo " 	C = TTY-Clock		D = Midnight-Commander"
 	echo ""
-	echo " 								| u = Update"
+	echo "  E = Dieter 						| u = Update"
 	echo "================="
 	echo ""
 	echo "	q = exit"
@@ -78,6 +78,7 @@ do
   B) cmatrix;;
 	C) tty-clock -s -c -C1 -b;;
 	D) mc;;
+	E) ssh dieter@192.168.0.0
 	u) sudo softwareupdate -l -i -a && brew upgrade	;;
 	q) exit;;
 
